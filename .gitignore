@@ -1,0 +1,11 @@
+.vs/
+**/bin/
+**/obj/
+**/node_modules/
+**/.gradle/
+**/build/
+.env
+.env.*
+!.env.example
+*.user
+*.suo
