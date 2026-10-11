@@ -1,10 +1,11 @@
 using System;
 using System.Threading;
+using System.Threading.Tasks;
 using DashboardService.Api.Queries;
 using DashboardService.DataAccess.Elastic;
 using DashboardService.Queries;
 using Xunit;
-using System.Threading.Tasks;
+
 namespace DashboardService.Test;
 
 [Collection("ElasticSearch in a container")]
