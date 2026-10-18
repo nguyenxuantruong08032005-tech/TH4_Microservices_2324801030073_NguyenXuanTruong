@@ -7,7 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="DynamicExpresso.Core" Version="2.16.1" />
+    <PackageReference Include="GlobalExceptionHandler" Version="4.0.2" />
+    <PackageReference Include="Marten" Version="8.38.1" />
     <PackageReference Include="MediatR" Version="12.5.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="8.0.6" />
+    <PackageReference Include="Steeltoe.Discovery.Eureka" Version="4.3.0" />
+    <PackageReference Include="Steeltoe.Management.Endpoint" Version="4.3.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
